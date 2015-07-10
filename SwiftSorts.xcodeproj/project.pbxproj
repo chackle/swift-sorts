@@ -20,6 +20,7 @@
 		544F2F711B5035D900B26676 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F701B5035D900B26676 /* ArrayExtensions.swift */; };
 		544F2F731B50388C00B26676 /* SelectionSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F721B50388C00B26676 /* SelectionSortService.swift */; };
 		544F2F751B5039E100B26676 /* HeapSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F741B5039E100B26676 /* HeapSortService.swift */; };
+		544F2F771B503AC100B26676 /* MergeSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F761B503AC100B26676 /* MergeSortService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		544F2F701B5035D900B26676 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Extensions/ArrayExtensions.swift; sourceTree = "<group>"; };
 		544F2F721B50388C00B26676 /* SelectionSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectionSortService.swift; path = Services/SelectionSortService.swift; sourceTree = "<group>"; };
 		544F2F741B5039E100B26676 /* HeapSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeapSortService.swift; path = Services/HeapSortService.swift; sourceTree = "<group>"; };
+		544F2F761B503AC100B26676 /* MergeSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MergeSortService.swift; path = Services/MergeSortService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				544F2F691B5031D300B26676 /* InsertionSortService.swift */,
 				544F2F721B50388C00B26676 /* SelectionSortService.swift */,
 				544F2F741B5039E100B26676 /* HeapSortService.swift */,
+				544F2F761B503AC100B26676 /* MergeSortService.swift */,
 			);
 			name = SortingServices;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			files = (
 				544F2F671B5031BC00B26676 /* SortingService.swift in Sources */,
 				544F2F6A1B5031D300B26676 /* InsertionSortService.swift in Sources */,
+				544F2F771B503AC100B26676 /* MergeSortService.swift in Sources */,
 				544F2F751B5039E100B26676 /* HeapSortService.swift in Sources */,
 				544F2F711B5035D900B26676 /* ArrayExtensions.swift in Sources */,
 				544F2F6E1B50330200B26676 /* BenchmarkObject.swift in Sources */,

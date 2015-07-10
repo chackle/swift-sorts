@@ -30,9 +30,11 @@ class ViewController: UIViewController {
     let insertion = sortingService.insertionSort(array)
     let selection = sortingService.selectionSort(array)
     let heap = sortingService.heapSort(array)
+    let merge = sortingService.mergeSort(array)
     println("Insertion Sort: \(insertion.description)\n")
     println("Selection Sort: \(selection.description)\n")
     println("Heap Sort: \(heap.description)\n")
+    println("Merge Sort: \(merge.description)\n")
   }
   
   private func generateArrayWithCount(count: Int) -> [IndexedObject] {

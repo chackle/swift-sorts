@@ -13,11 +13,13 @@ class SortingService {
   private let insertionSortService: InsertionSortService
   private let selectionSortService: SelectionSortService
   private let heapSortService: HeapSortService
+  private let mergeSortService: MergeSortService
   
   init() {
     self.insertionSortService = InsertionSortService()
     self.selectionSortService = SelectionSortService()
     self.heapSortService = HeapSortService()
+    self.mergeSortService = MergeSortService()
   }
   
   func insertionSort(var array: [IndexedObject]) -> BenchmarkObject {
@@ -37,6 +39,13 @@ class SortingService {
   func heapSort(var array: [IndexedObject]) -> BenchmarkObject {
     let start = NSDate()
     heapSortService.sort(&array)
+    let end = NSDate()
+    return BenchmarkObject(array: array, testStart: start, testEnd: end)
+  }
+  
+  func mergeSort(var array: [IndexedObject]) -> BenchmarkObject {
+    let start = NSDate()
+    mergeSortService.sort(&array)
     let end = NSDate()
     return BenchmarkObject(array: array, testStart: start, testEnd: end)
   }
