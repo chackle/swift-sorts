@@ -27,8 +27,10 @@ class ViewController: UIViewController {
     var array = generateArrayWithCount(100)
     array.shuffle()
     let sortingService = SortingService()
-    let benchmark = sortingService.insertionSort(array)
-    println(benchmark.description)
+    let insertion = sortingService.insertionSort(array)
+    let selection = sortingService.selectionSort(array)
+    println("Insertion Sort: \(insertion.description)\n")
+    println("Selection Sort: \(selection.description)\n")
   }
   
   private func generateArrayWithCount(count: Int) -> [IndexedObject] {
