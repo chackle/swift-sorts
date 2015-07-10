@@ -25,7 +25,7 @@ class BenchmarkObject: DebugPrintable {
   }
   
   var description: String {
-    return "\(timeTaken()) - \(array)"
+    return "(\(timeTaken()) seconds) \n\(array)"
   }
   
   var debugDescription: String {

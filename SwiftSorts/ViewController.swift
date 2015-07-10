@@ -24,17 +24,19 @@ class ViewController: UIViewController {
   }
   
   private func testSorting() {
-    var array = generateArrayWithCount(100)
+    var array = generateArrayWithCount(1000)
     array.shuffle()
     let sortingService = SortingService()
     let insertion = sortingService.insertionSort(array)
     let selection = sortingService.selectionSort(array)
     let heap = sortingService.heapSort(array)
     let merge = sortingService.mergeSort(array)
+    let quick = sortingService.quickSort(array)
     println("Insertion Sort: \(insertion.description)\n")
     println("Selection Sort: \(selection.description)\n")
     println("Heap Sort: \(heap.description)\n")
     println("Merge Sort: \(merge.description)\n")
+    println("Quick Sort: \(quick.description)\n")
   }
   
   private func generateArrayWithCount(count: Int) -> [IndexedObject] {

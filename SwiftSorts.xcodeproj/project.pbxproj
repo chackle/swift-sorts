@@ -21,6 +21,7 @@
 		544F2F731B50388C00B26676 /* SelectionSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F721B50388C00B26676 /* SelectionSortService.swift */; };
 		544F2F751B5039E100B26676 /* HeapSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F741B5039E100B26676 /* HeapSortService.swift */; };
 		544F2F771B503AC100B26676 /* MergeSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F761B503AC100B26676 /* MergeSortService.swift */; };
+		544F2F791B503B9F00B26676 /* QuickSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F781B503B9F00B26676 /* QuickSortService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		544F2F721B50388C00B26676 /* SelectionSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectionSortService.swift; path = Services/SelectionSortService.swift; sourceTree = "<group>"; };
 		544F2F741B5039E100B26676 /* HeapSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeapSortService.swift; path = Services/HeapSortService.swift; sourceTree = "<group>"; };
 		544F2F761B503AC100B26676 /* MergeSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MergeSortService.swift; path = Services/MergeSortService.swift; sourceTree = "<group>"; };
+		544F2F781B503B9F00B26676 /* QuickSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QuickSortService.swift; path = Services/QuickSortService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				544F2F721B50388C00B26676 /* SelectionSortService.swift */,
 				544F2F741B5039E100B26676 /* HeapSortService.swift */,
 				544F2F761B503AC100B26676 /* MergeSortService.swift */,
+				544F2F781B503B9F00B26676 /* QuickSortService.swift */,
 			);
 			name = SortingServices;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				544F2F731B50388C00B26676 /* SelectionSortService.swift in Sources */,
 				544F2F6C1B5032A200B26676 /* IndexedObject.swift in Sources */,
 				544F2F441B50315C00B26676 /* ViewController.swift in Sources */,
+				544F2F791B503B9F00B26676 /* QuickSortService.swift in Sources */,
 				544F2F421B50315C00B26676 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
