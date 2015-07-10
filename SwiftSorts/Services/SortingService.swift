@@ -10,12 +10,14 @@ import Foundation
 
 class SortingService {
   
-  let insertionSortService: InsertionSortService
-  let selectionSortService: SelectionSortService
+  private let insertionSortService: InsertionSortService
+  private let selectionSortService: SelectionSortService
+  private let heapSortService: HeapSortService
   
   init() {
     self.insertionSortService = InsertionSortService()
     self.selectionSortService = SelectionSortService()
+    self.heapSortService = HeapSortService()
   }
   
   func insertionSort(var array: [IndexedObject]) -> BenchmarkObject {
@@ -28,6 +30,13 @@ class SortingService {
   func selectionSort(var array: [IndexedObject]) -> BenchmarkObject {
     let start = NSDate()
     selectionSortService.sort(&array)
+    let end = NSDate()
+    return BenchmarkObject(array: array, testStart: start, testEnd: end)
+  }
+  
+  func heapSort(var array: [IndexedObject]) -> BenchmarkObject {
+    let start = NSDate()
+    heapSortService.sort(&array)
     let end = NSDate()
     return BenchmarkObject(array: array, testStart: start, testEnd: end)
   }

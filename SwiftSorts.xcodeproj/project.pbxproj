@@ -19,6 +19,7 @@
 		544F2F6E1B50330200B26676 /* BenchmarkObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F6D1B50330200B26676 /* BenchmarkObject.swift */; };
 		544F2F711B5035D900B26676 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F701B5035D900B26676 /* ArrayExtensions.swift */; };
 		544F2F731B50388C00B26676 /* SelectionSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F721B50388C00B26676 /* SelectionSortService.swift */; };
+		544F2F751B5039E100B26676 /* HeapSortService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 544F2F741B5039E100B26676 /* HeapSortService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		544F2F6D1B50330200B26676 /* BenchmarkObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BenchmarkObject.swift; path = Models/BenchmarkObject.swift; sourceTree = "<group>"; };
 		544F2F701B5035D900B26676 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayExtensions.swift; path = Extensions/ArrayExtensions.swift; sourceTree = "<group>"; };
 		544F2F721B50388C00B26676 /* SelectionSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SelectionSortService.swift; path = Services/SelectionSortService.swift; sourceTree = "<group>"; };
+		544F2F741B5039E100B26676 /* HeapSortService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeapSortService.swift; path = Services/HeapSortService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +152,7 @@
 			children = (
 				544F2F691B5031D300B26676 /* InsertionSortService.swift */,
 				544F2F721B50388C00B26676 /* SelectionSortService.swift */,
+				544F2F741B5039E100B26676 /* HeapSortService.swift */,
 			);
 			name = SortingServices;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			files = (
 				544F2F671B5031BC00B26676 /* SortingService.swift in Sources */,
 				544F2F6A1B5031D300B26676 /* InsertionSortService.swift in Sources */,
+				544F2F751B5039E100B26676 /* HeapSortService.swift in Sources */,
 				544F2F711B5035D900B26676 /* ArrayExtensions.swift in Sources */,
 				544F2F6E1B50330200B26676 /* BenchmarkObject.swift in Sources */,
 				544F2F731B50388C00B26676 /* SelectionSortService.swift in Sources */,
