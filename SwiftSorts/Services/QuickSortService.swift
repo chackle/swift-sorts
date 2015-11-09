@@ -15,7 +15,7 @@ class QuickSortService {
   }
   
   func sort(inout a: [IndexedObject], l: Int, r: Int) {
-    var i = partition(&a, l: l, r: r)
+    let i = partition(&a, l: l, r: r)
     if l < i - 1 {
       sort(&a, l: l, r: i - 1)
     }
@@ -27,7 +27,7 @@ class QuickSortService {
   private func partition(inout a: [IndexedObject], l: Int, r: Int) -> Int {
     var i = l
     var j = r
-    var p = a[(i + j) / 2]
+    let p = a[(i + j) / 2]
     while i <= j {
       while a[i].id < p.id {
         i++
@@ -36,7 +36,9 @@ class QuickSortService {
         j--
       }
       if i <= j {
-        swap(&a[i], &a[j])
+        if i != j {
+          swap(&a[i], &a[j])
+        }
         i++
         if j > 0 {
           j--

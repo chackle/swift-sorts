@@ -8,7 +8,7 @@
 
 import Foundation
 
-class IndexedObject: DebugPrintable {
+class IndexedObject: CustomDebugStringConvertible {
   
   let id: Int
   

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class BenchmarkObject: DebugPrintable {
+class BenchmarkObject: CustomDebugStringConvertible {
   
   let array: [IndexedObject]
   private let testStart: NSDate
